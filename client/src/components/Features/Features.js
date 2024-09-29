@@ -4,26 +4,7 @@ import './Features.css'
 export default function Features() {
     const features = {
         "sections": [
-            {
-                "name": "Easy Booking",
-                "content": "Experience hassle-free travel planning with our easy booking system. Find and reserve your dream destinations in just a few clicks!",
-                "logo": "https://cdn-icons-png.flaticon.com/128/61/61584.png"
-            },
-            {
-                "name": "Best Destinations",
-                "content": "Discover the world's best destinations handpicked for you. From exotic beaches to breathtaking landscapes, we've got it all covered for your next adventure!",
-                "logo": "https://cdn-icons-png.flaticon.com/128/891/891911.png"
-            },
-            {
-                "name": "Travel Guides",
-                "content": "Unlock insider tips and secrets with our expert travel guides. Navigate unfamiliar territories like a pro and make the most out of your journey!",
-                "logo": "https://cdn-icons-png.flaticon.com/128/2491/2491921.png"
-            },
-            {
-                "name": "Friendly Support",
-                "content": "Experience personalized assistance and support from our friendly team round the clock. We're here to ensure your travel experience is smooth and memorable!",
-                "logo": "https://cdn-icons-png.flaticon.com/128/13224/13224269.png"
-            }
+         
 
         ]
     };

@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Carousel.css';
 import Img1 from './mall1.jpg';
-import Img2 from './car2.jpg';
-import Img3 from './car3.jpg';
+import Img2 from './main2.jpg';
+import Img3 from './main3.jpg';
 
 
 export default function Carousel() {
@@ -20,8 +20,8 @@ export default function Carousel() {
                 <img src={Img1} className="d-block w-100" alt="Slide 1" style={{ height: '100%', objectFit: 'cover'}}></img>
                 <div className="container">
                     <div className="carousel-caption text-start text-black">
-                        <h1 style={{color:'white'}}>Unbox the Joy of Shopping</h1>
-                        <p className="opacity-75">Sign Up/ Login Today </p>
+                        <h1 style={{color:'#00FFFF', textAlignment:'center', marginLeft:'320px'}}>Unbox the Joy of Shopping</h1>
+                        <p className="opacity-75" >Sign Up/ Login Today </p>
                         <p><Link className="btn btn-lg btn-info" to="/login">Sign up today</Link></p>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export default function Carousel() {
                 <img src={Img2} className="d-block w-100" alt="Slide 2" style={{ height: '100%', objectFit: 'cover' }}></img>
                 <div className="container">
                     <div className="carousel-caption text-black">
-                        <h1>Book Your Next Adventure with Ease!</h1>
+                    <h1 style={{color:'#00FFFF', textAlignment:'center', marginLeft:'250px'}}>Book Your Next Adventure with Ease!</h1>
                         <p>YEHHHHH HEEEEEE.</p>
                         <p>
                         <a className="btn btn-lg btn-info" href="#book2">Learn more</a>
@@ -43,7 +43,7 @@ export default function Carousel() {
                 <img src={Img3} className="d-block w-100" alt="Slide 3" style={{ height: '100%', objectFit: 'cover' }}></img>
                 <div className="container">
                     <div className="carousel-caption text-start">
-                        <h1>Unlock Unforgettable Journeys Here!</h1>
+                    <h1 style={{color:'#00FFFF', textAlignment:'center', marginLeft:'230px'}}>Unlock Unforgettable Journeys Here!</h1>
                         <p> Get in touch with us.  </p>
                         <p><Link className="btn btn-lg btn-info" to="/contact">Contact Us</Link></p>
                     </div>
