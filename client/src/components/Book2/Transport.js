@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import bookingData from '../../configs/Booking/Transport.json';
+import img1 from "./ecommerce.avif"
 
 export default function Transport() {
     return (
@@ -9,7 +10,7 @@ export default function Transport() {
             {bookingData.map((block) => (
                 <div className="row mx-auto mb-3 row-eq-height" key={block.id}>
                     <div className="col-md-6 order-md-2 d-flex align-items-center"style={{ height: "350px"}}>
-                        <img src={block.img} alt="Transport" className="img-fluid rounded-2 border h-100"  />
+                        <img src={img1} alt="Transport" className="img-fluid rounded-2 border h-100"  />
                     </div>
                     <div className="col-md-6 order-md-1 d-flex align-items-center">
                         <div className="border rounded-2 p-3">

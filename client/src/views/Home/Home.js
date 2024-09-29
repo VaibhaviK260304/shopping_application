@@ -8,8 +8,8 @@ import Transport from '../../components/Book2/Transport.js'
 import Statistics from '../../components/Statistics/Statistics.js'
 import Carousel from '../../components/Carousel/Carousel.js'
 import Globe from '../../components/Globe/Globe.js'
-import HeroTrain from '../../components/HeroTrain/HeroTrain.js'
-import HeroAero from '../../components/HeroAero/HeroAero.js'
+import HeroShop from '../../components/HeroTrain/HeroTrain.js'
+import HeroECommerce from '../../components/HeroAero/HeroAero.js'
 import Preloader from '../../components/Preloader/Preloader.js'
 import ReviewComp from '../../components/ReviewComp/ReviewComp.js'
 
@@ -20,8 +20,8 @@ function Home() {
       <Carousel/>
       <Transport/>
       <Preloader/>
-      <HeroTrain/>
-      <HeroAero/>
+      <HeroShop/>
+      <HeroECommerce/>
       <Features/>
       <Globe/>
       <AdvertiseVdo/>
