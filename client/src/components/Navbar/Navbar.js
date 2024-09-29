@@ -51,11 +51,15 @@ export default function Navbar() {
                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/review">Reviews</Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/contact">Contact Us</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/review">Reviews</Link>
+                <Link className="nav-link active" aria-current="page" to="/contact">SIGN UP</Link>
               </li>
+              
 
               {/* <li className="nav-item dropdown">
                 <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -79,7 +83,7 @@ export default function Navbar() {
               </div>
             ) : (
               <Link to='/login' className="text-decoration-none">
-                <button className="btn bg-warning border text-black py-1" type="button">Login</button>
+                <button className="btn bg-warning border text-black py-1" type="button">LOGIN</button>
               </Link>
             )}
           </div>
