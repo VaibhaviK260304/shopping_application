@@ -64,7 +64,7 @@ function App() {
     {
       path:"/shopping",
       element:<Shopping/>
-    }
+    },
 
     // {
     //   path: "/badmin",
