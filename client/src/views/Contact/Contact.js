@@ -67,25 +67,7 @@ export default function ContactUs() {
             <p className='heading-1'>Customer Care</p>
             <p className="description-1">Our team of customer care ninjas is ready to hear from you.</p>
 
-            <div className='wrapper'>
-                <div className='text-box'>
-                    <img src={om} alt='Om' className='user-1' />
-                    <div className="">
-
-                    <h6>Om nandurkar</h6>
-                    <p>Customer Care<br />+91 **********14</p>
-                    </div>
-                </div>
-
-                <div className='text-box'>
-                    <img src={ph} alt='nidhi' className='user-2' />
-                    <div className="">
-
-                    <h6>Nidhi jangde</h6>
-                    <p>Customer Care<br />+91 **********88</p>
-                    </div>
-                </div>
-            </div>
+           
 
             <p className='heading-2'>Others ways to connect</p>
 
@@ -115,7 +97,7 @@ export default function ContactUs() {
                                 <div className='text-box-5 text-center'>
                                     <img src={team} alt='team' className='user-5 img-fluid rounded'></img>
                                     <p className="mt-3">
-                                        'Travel is the movement of people between distant geographical locations. Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and can be one way or round trip. Travel can also include relatively short stays between successive movements, as in the case of tourism.'
+                                    Our core belief is that shopping should be enjoyable, personalized, and effortless. With a carefully curated selection of products, we strive to offer something for everyone—regardless of style or budget. From the latest fashion trends to timeless classics, we prioritize quality and customer satisfaction above all.
                                     </p>
                                 </div>
                             </div>
