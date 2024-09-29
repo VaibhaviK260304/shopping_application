@@ -11,6 +11,7 @@ import Contact from "./views/Contact/Contact";
 import Payment from "./views/Payment/Payment";
 import Admin from "./views/Admin/Admin";
 import AloginPage from "./views/Admin/AloginPage";
+import Shopping from "./views/Shopping/Shopping"
 // import AdminLogin from "./views/Admin/AdminLogin"
 
 function App() {
