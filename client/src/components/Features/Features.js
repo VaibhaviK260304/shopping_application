@@ -4,7 +4,26 @@ import './Features.css'
 export default function Features() {
     const features = {
         "sections": [
-         
+            {
+                "name": "Easy Booking",
+                "content": "Experience hassle-free shopping planning with our easy booking system. Find in just a few clicks!",
+                "logo": "https://cdn-icons-png.flaticon.com/128/61/61584.png"
+            },
+            {
+                "name": "Unified Cart",
+                "content": "Seamless shopping cart experience across online and in-store!",
+                "logo": "https://cdn-icons-png.flaticon.com/128/891/891911.png"
+            },
+            {
+                "name": "Product Recommendations",
+                "content": "Personalized product suggestions based on browsing history and purchase behavior!",
+                "logo": "https://cdn-icons-png.flaticon.com/128/2491/2491921.png"
+            },
+            {
+                "name": "Friendly Support",
+                "content": "Experience personalized assistance and support from our friendly team round the clock. We're here to ensure your shopping experience is smooth and memorable!",
+                "logo": "https://cdn-icons-png.flaticon.com/128/13224/13224269.png"
+            }
 
         ]
     };

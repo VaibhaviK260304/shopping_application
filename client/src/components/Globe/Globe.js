@@ -12,7 +12,7 @@ export default function Globe() {
                 <img src='https://dtora.wpengine.com/wp-content/uploads/2019/03/count2.png' alt='img' />
                 </div>
                 <h3 className="fs-2 text-info-emphasis ">Go Green</h3>
-                <p className='text-body-secondary'>Our travel agency embraces eco-friendly practices by collaborating with sustainable accommodations and transportation providers, aiming to reduce environmental impact and promote responsible tourism.</p>
+                <p className='text-body-secondary'>Shop sustainably online & offline, supporting eco-friendly brands and reducing waste. Together, let's make a greener tomorrow.                </p>
                 
                 
             </div>
