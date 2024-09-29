@@ -6,7 +6,7 @@ export default function Statistics() {
     const stats = [
         {
             logo: "https://dtora.wpengine.com/wp-content/uploads/2019/03/count1.png",
-            name: "Travel Packages",
+            name: "Category Packages",
             quantity: "9000+"
         },
         {

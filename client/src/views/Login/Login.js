@@ -57,7 +57,7 @@ function Login() {
           <div className="col-lg-7 text-center text-lg-start">
             <img src={img1} alt='img'  style={{ height: "224px" }} />
             <hr className='my-0 mb-4'/>
-            <h1 className=" fw-bold lh-1 text-body-emphasis mb-3">Book your Ride Now</h1>
+            <h1 className=" fw-bold lh-1 text-body-emphasis mb-3">Shop Now</h1>
             <p className="col-lg-10 fs-6 ">Enjoy Your seamless experience by signing up now!! </p>
           </div>
           <div className="col-md-10 mx-auto col-lg-5">
