@@ -63,25 +63,25 @@ const category=[
     },
     {
         img:img9,
-        categoryname:'Automotive',
+        categoryname:'Pet Supplies',
         details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
 
     },
     {
         img:img10,
-        categoryname:'Automotive',
+        categoryname:'Books & Stationery',
         details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
 
     },
     {
         img:img11,
-        categoryname:'Automotive',
+        categoryname:'Travel & Luggage',
         details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
 
     },
     {
         img:img12,
-        categoryname:'Automotive',
+        categoryname:'Jewelry & Watches',
         details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
 
     }
