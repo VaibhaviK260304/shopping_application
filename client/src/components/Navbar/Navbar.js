@@ -38,8 +38,8 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-info">
-        <div className="container-fluid">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark py-3" >
+        <div className="container-fluid navsize">
           <Link className="navbar-brand" to="/">Shopping</Link>
 
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +57,7 @@ export default function Navbar() {
                 <Link className="nav-link active" aria-current="page" to="/review">Reviews</Link>
               </li>
 
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Booking
                 </Link>
@@ -66,7 +66,7 @@ export default function Navbar() {
                   <li><hr className="dropdown-divider" /></li>
                   <li><Link className="dropdown-item" to="/destination/2">Train</Link></li>
                 </ul>
-              </li>
+              </li> */}
 
             </ul>
             {user ? (
@@ -79,7 +79,7 @@ export default function Navbar() {
               </div>
             ) : (
               <Link to='/login' className="text-decoration-none">
-                <button className="btn btn-info border text-white" type="button">Login</button>
+                <button className="btn bg-warning border text-black py-1" type="button">Login</button>
               </Link>
             )}
           </div>
