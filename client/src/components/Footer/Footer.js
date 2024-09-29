@@ -5,12 +5,12 @@ import './Footer.css';
 
 export default function Footer() {
     return (
-        <div className='w-100 bg-img-footer pb-4'>
+        <div className='w-100 bg-img-footer pb-4 footer-img'>
             <div className="container">
-                <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 pb-3 my-5 border-top mb-0">
+                <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 pt-5 pb-3 my-5 border-top mb-0 ">
                     <div className="col ">
                         <Link to="/" className="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-                            <h4>Save on your plans!
+                            <h4>Save on your Shopping!
                                 Select BOOKING And Receive
                                 our discounts by e-mail.</h4>
                         </Link>
@@ -30,11 +30,11 @@ export default function Footer() {
                     </div>
 
                     <div className="col ">
-                        <h5>Travel</h5>
+                        <h5>Shops</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><Link to="#" className="nav-link p-0 text-body-secondary">Business Cass</Link></li>
-                            <li className="nav-item mb-2"><Link to="#" className="nav-link p-0 text-body-secondary">Economy</Link></li>
-                            <li className="nav-item pb-2"><Link to="#" className="nav-link p-0 text-body-secondary">Sleeper</Link></li>
+                            <li className="nav-item mb-2"><Link to="#" className="nav-link p-0 text-body-secondary">Nagpur</Link></li>
+                            <li className="nav-item mb-2"><Link to="#" className="nav-link p-0 text-body-secondary">Mumbai</Link></li>
+                            <li className="nav-item pb-2"><Link to="#" className="nav-link p-0 text-body-secondary">Pune</Link></li>
 
                         </ul>
                     </div>
@@ -42,7 +42,7 @@ export default function Footer() {
                     <div className="col pb-2">
                         <h5>Contact Us</h5>
                         <ul className="nav flex-column">
-                            <li className="nav-item mb-2"><a href="mailto:booking@gmail.com" className="nav-link p-0 text-body-secondary">booking@gmail.com</a></li>
+                            <li className="nav-item mb-2"><a href="mailto:shopping@gmail.com" className="nav-link p-0 text-body-secondary">shopping@gmail.com</a></li>
                             <li className="nav-item mb-2"><a href="tel:+919766426214" className="nav-link p-0 text-body-secondary">+91 9766426214</a></li>
                             <li className="nav-item pb-2"><a href="/" className="nav-link p-0 text-body-secondary">Pune</a></li>
                         </ul>
