@@ -28,7 +28,7 @@ function App() {
     },
 
     {
-      path: "/destination/:id",
+      path: "/shopping/:id",
       element: <Destination/>
     },
 
@@ -61,6 +61,10 @@ function App() {
       path: "/dashboard",
       element: <Dashboard/>
     },
+    {
+      path:"/shopping",
+      element:<Shopping/>
+    }
 
     // {
     //   path: "/badmin",

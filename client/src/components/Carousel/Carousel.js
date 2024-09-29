@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Carousel.css';
-import Img1 from './car1.jpg';
+import Img1 from './mall1.jpg';
 import Img2 from './car2.jpg';
 import Img3 from './car3.jpg';
 
@@ -17,10 +17,10 @@ export default function Carousel() {
         </div>
         <div className="carousel-inner">
             <div className="carousel-item active">
-                <img src={Img1} className="d-block w-100" alt="Slide 1" style={{ height: '100%', objectFit: 'cover' }}></img>
+                <img src={Img1} className="d-block w-100" alt="Slide 1" style={{ height: '100%', objectFit: 'cover'}}></img>
                 <div className="container">
                     <div className="carousel-caption text-start text-black">
-                        <h1>Discover Your Dream Destinations Today.</h1>
+                        <h1 style={{color:'white'}}>Unbox the Joy of Shopping</h1>
                         <p className="opacity-75">Sign Up/ Login Today </p>
                         <p><Link className="btn btn-lg btn-info" to="/login">Sign up today</Link></p>
                     </div>
