@@ -32,3 +32,15 @@
     gap: 20px;
     justify-content: space-around;
 }
+.card-btn{
+    border: 2px solid black;
+    padding:5px 10px;
+    margin:10px auto;
+    width: 100px;
+    border-radius: 6px;
+    justify-content: center;
+}
+.card-btn:hover{
+    background-color: black;
+    color: white;
+}

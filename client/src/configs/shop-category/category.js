@@ -2,6 +2,15 @@ import img1 from './categoryimg/cloths.jpg'
 import img2 from './categoryimg/gadgets.jpg'
 import img3 from './categoryimg/beauty.jpg'
 import img4 from './categoryimg/kitchen.jpg'
+import img5 from './categoryimg/health.jpeg'
+import img6 from './categoryimg/fruits.jpg'
+import img7 from './categoryimg/sports.jpg'
+import img8 from './categoryimg/cars.jpg'
+import img9 from './categoryimg/pets.jpeg'
+import img10 from './categoryimg/book.jpg'
+import img11 from './categoryimg/travel.jpg'
+import img12 from './categoryimg/gold.jpg'
+
 
 const category=[
     {
@@ -12,19 +21,67 @@ const category=[
     },
     {
         img:img2,
-        categoryname:'Apparel & Accessories',
+        categoryname:'Electronic Gadgets',
         details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
 
     },
     {
         img:img3,
-        categoryname:'Apparel & Accessories',
+        categoryname:'Beauty & Personal Care',
         details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
 
     },
     {
         img:img4,
-        categoryname:'Apparel & Accessories',
+        categoryname:'Home & Kitchen',
+        details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
+
+    },
+    {
+        img:img5,
+        categoryname:'Health & Wellness',
+        details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
+
+    },
+    {
+        img:img6,
+        categoryname:'Groceries & Food',
+        details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
+
+    },
+    {
+        img:img7,
+        categoryname:'Sports & Outdoor',
+        details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
+
+    }
+    ,{
+        img:img8,
+        categoryname:'Automotive',
+        details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
+
+    },
+    {
+        img:img9,
+        categoryname:'Automotive',
+        details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
+
+    },
+    {
+        img:img10,
+        categoryname:'Automotive',
+        details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
+
+    },
+    {
+        img:img11,
+        categoryname:'Automotive',
+        details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
+
+    },
+    {
+        img:img12,
+        categoryname:'Automotive',
         details:"Apparel & Accessories covers clothing, footwear, jewelry, and fashion items"
 
     }
