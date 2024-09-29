@@ -4,8 +4,11 @@ export default function AdvertiseVdo() {
   return (
     <div className='my-5 mb-1'>
       <section >
-        <div className="" style={{ width: '100%', height: '400px', overflow: 'hidden' }}>
-          <video className="" autoPlay muted loop playsInline src="https://webredox.net/demo/wp/travol/video/travel-video.mp4#t=10" style={{ width: '100%', minHeight: '100%', objectFit: 'cover' }} />
+        <div className="" style={{ width: '100%', height: '500px', overflow: 'hidden' }}>
+        <video  style={{height:'800px',width: '100%',maxWidth: '1500px', objectFit: 'cover'}} controls autoPlay muted>
+  <source src="https://pixabay.com/videos/shopping-center-escalators-modern-12876/" type="video/mp4"/>
+</video>
+
         </div>
         
       </section>
